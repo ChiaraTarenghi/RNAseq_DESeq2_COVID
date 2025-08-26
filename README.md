@@ -1,6 +1,6 @@
 # RNA-seq Differential Expression Analysis (COVID-19 vs Controls)
 
-This project performs a differential gene expression analysis using the **GSE152641** dataset (whole blood, COVID-19 patients vs healthy controls) with **DESeq2**.
+This project performs a **differential gene expression analysis** using the **GSE152641** dataset (whole blood, COVID-19 patients vs healthy controls) with **DESeq2**.
 
 ## Project Structure
 ```text
@@ -9,11 +9,15 @@ results/      # dds_ready.rds, DE_results.csv
 figures/      # PCA_plot.png, heatmap_top20.png, volcano_plot.png
 data/         # downloaded GEO data (not versioned, see data/README.txt)
 How to Run
-r
+In R/RStudio (R ≥ 4.2):
 
+r
+Copy code
 setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
 Outputs (preview)
+
+
 
 Dataset
 GEO Accession: GSE152641
@@ -23,5 +27,3 @@ Love MI, Huber W, Anders S (2014). Moderated estimation of fold change and dispe
 
 License
 MIT (code). Please refer to NCBI GEO for data usage terms.
-
-
