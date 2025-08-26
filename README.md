@@ -19,9 +19,12 @@ The script will install missing packages, download data if needed, and write out
 
 Outputs (preview)
 
-![PCA](RNAseq_DE_project/figures/PCA_plot.png)  
-![Heatmap](RNAseq_DE_project/figures/heatmap_top20.png)  
-![Volcano](RNAseq_DE_project/figures/volcano_plot.png)  
+Outputs (preview)
+
+![PCA](figures/PCA_plot.png)  
+![Heatmap](figures/heatmap_top20.png)  
+![Volcano](figures/volcano_plot.png)  
+
 
 Dataset
 GEO Accession: GSE152641
