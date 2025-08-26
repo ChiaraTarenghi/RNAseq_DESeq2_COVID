@@ -9,10 +9,14 @@ results/      # dds_ready.rds, DE_results.csv
 figures/      # PCA_plot.png, heatmap_top20.png, volcano_plot.png
 data/         # downloaded GEO data (not versioned, see data/README.txt)
 How to Run
+In R/RStudio (R ≥ 4.2):
+
 r
-Copy code
+
 setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
+The script will install missing packages, download data if needed, and write outputs to results/ and figures/.
+
 Outputs (preview)
 
 ![PCA](RNAseq_DE_project/figures/PCA_plot.png)  
