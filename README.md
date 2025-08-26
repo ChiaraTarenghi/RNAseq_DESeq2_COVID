@@ -7,12 +7,12 @@ The workflow is implemented in **R** with **DESeq2**, covering data download, qu
 ---
 
 ## Project Structure
-RNAseq_DE_project/
-├── scripts/      # RNAseq_workflow.R (main script)
-├── results/      # dds_ready.rds, DE_results.csv
-├── figures/      # PCA_plot.png, heatmap_top20.png, volcano_plot.png
-└── data/         # downloaded GEO data (not versioned, see data/README.txt)
-
+```text
+scripts/      # RNAseq_workflow.R (main script)
+results/      # dds_ready.rds, DE_results.csv
+figures/      # PCA_plot.png, heatmap_top20.png, volcano_plot.png
+data/         # downloaded GEO data (not versioned, see data/README.txt)
+```
 ---
 
 ## Workflow
@@ -49,11 +49,10 @@ Generate results in results/ and figures in figures/
 
 Figures/
     
-    PCA_plot.png
+![PCA](figures/PCA_plot.png)
+![Heatmap](figures/heatmap_top20.png)
+![Volcano](figures/volcano_plot.png)
 
-heatmap_top20.png
-
-volcano_plot.png
 
 Results/
     
