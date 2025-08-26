@@ -15,6 +15,8 @@ r
 Copy code
 setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
+The script will install missing packages, download data if needed, and write outputs to results/ and figures/.
+
 Outputs (preview)
 
 
