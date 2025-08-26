@@ -51,12 +51,13 @@ Outputs
 
 ## Outputs
 
-- **Figures/**  
+Figures
+
   ![PCA](figures/PCA_plot.png)  
   ![Heatmap](figures/heatmap_top20.png)  
   ![Volcano](figures/volcano_plot.png)
 
-- **Results/**  
+Results
   - `dds_ready.rds`  
   - `DE_results.csv`  
 
