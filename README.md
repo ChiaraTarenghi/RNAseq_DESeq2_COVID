@@ -49,9 +49,9 @@ Generate results in results/ and figures in figures/
 
 Figures/
     
-![PCA](figures/PCA_plot.png)
-![Heatmap](figures/heatmap_top20.png)
-![Volcano](figures/volcano_plot.png)
+![PCA](figures/PCA_plot.png)  
+![Heatmap](figures/heatmap_top20.png)  
+![Volcano](figures/volcano_plot.png)  
 
 
 Results/
