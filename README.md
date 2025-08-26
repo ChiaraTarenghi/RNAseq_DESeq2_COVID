@@ -39,13 +39,15 @@ The script will install missing packages, download data if needed, and write out
 
 ## Outputs
 - **Figures/**  
-  ![PCA](figures/PCA_plot.png)  
-  ![Heatmap](figures/heatmap_top20.png)  
-  ![Volcano](figures/volcano_plot.png)
+
+![PCA](figures/PCA_plot.png)  
+![Heatmap](figures/heatmap_top20.png)  
+![Volcano](figures/volcano_plot.png)
 
 - **Results/**  
   - `dds_ready.rds`  
-  - `DE_results.csv`  
+  - `DE_results.csv`
+
 
 
 Dataset
