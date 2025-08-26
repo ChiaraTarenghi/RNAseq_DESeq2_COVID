@@ -37,7 +37,7 @@ setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
 The script will install missing packages, download data if needed, and write outputs to results/ and figures/.
 
-## Outputs
+`## Outputs
 - **Figures/**  
 
 ![PCA](figures/PCA_plot.png)  
@@ -47,8 +47,6 @@ The script will install missing packages, download data if needed, and write out
 - **Results/**  
   - `dds_ready.rds`  
   - `DE_results.csv`
-
-
 
 Dataset
 GEO Accession: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE152641
