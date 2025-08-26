@@ -10,14 +10,19 @@ figures/      # PCA_plot.png, heatmap_top20.png, volcano_plot.png
 data/         # downloaded GEO data (not versioned, see data/README.txt)
 ```
 
-How to Run
+## How to Run
 
 ```r
 setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
 ```
 
-Outputs (preview)
+## Results
+
+```dds_ready.rds
+DE_results.csv
+```
+
 ## Outputs (preview)
 
 ![PCA](https://raw.githubusercontent.com/ChiaraTarenghi/RNAseq_DESeq2_COVID/main/figures/PCA_plot.png)
@@ -28,10 +33,15 @@ Dataset
 
 GEO Accession: GSE152641
 
+Inflammatix COVID-19 whole blood RNA-seq dataset.
+
 References
 
 Love MI, Huber W, Anders S (2014). Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biology.
 
+GEO Accession: GSE152641, NCBI GEO.
+
 License
 
-MIT (code). Please refer to NCBI GEO for data usage terms.
+MIT License (for code).
+Data licensing and usage should follow the conditions of NCBI GEO.
