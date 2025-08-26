@@ -15,9 +15,9 @@ setwd("RNAseq_DE_project")
 source("scripts/RNAseq_workflow.R")
 Outputs (preview)
 
-![PCA](figures/PCA_plot.png)  
-![Heatmap](figures/heatmap_top20.png)  
-![Volcano](figures/volcano_plot.png)
+![PCA](RNAseq_DE_project/figures/PCA_plot.png)  
+![Heatmap](RNAseq_DE_project/figures/heatmap_top20.png)  
+![Volcano](RNAseq_DE_project/figures/volcano_plot.png)  
 
 Dataset
 GEO Accession: GSE152641
