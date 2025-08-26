@@ -49,20 +49,16 @@ Generate results in results/ and figures in figures/
 
 Outputs
 
-Figures/
+## Outputs
 
-figures/PCA_plot.png
+- **Figures/**  
+  ![PCA](figures/PCA_plot.png)  
+  ![Heatmap](figures/heatmap_top20.png)  
+  ![Volcano](figures/volcano_plot.png)
 
-figures/heatmap_top20.png
-
-figures/volcano_plot.png
-
-
-Results/
-
-dds_ready.rds
-
-DE_results.csv
+- **Results/**  
+  - `dds_ready.rds`  
+  - `DE_results.csv`  
 
 Dataset
 GEO Accession: GSE152641
