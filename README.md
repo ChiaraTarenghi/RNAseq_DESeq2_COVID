@@ -19,7 +19,11 @@ The script will install missing packages, download data if needed, and write out
 
 Outputs (preview)
 
+## Outputs (preview)
 
+![PCA](figures/PCA_plot.png)  
+![Heatmap](figures/heatmap_top20.png)  
+![Volcano](figures/volcano_plot.png)
 
 Dataset
 GEO Accession: GSE152641
